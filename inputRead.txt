@@ -1,0 +1,4 @@
+firstname | lastname | nickname | marks
+dinkar | kad | dinkar | 85
+Vaneet | Gupta | vinni | 95
+jasvir | singn | jazz | 90

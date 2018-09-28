@@ -15,9 +15,9 @@ public class DBconnection {
 		Statement stmt = conn.createStatement();
 		
 		CallableStatement cs = conn.prepareCall("");
-		
+			
 		ResultSet rs = stmt.executeQuery("select * from employees");
-		
+		rs.getSQLXML("as");
 		while(rs.next()) {
 			
 			System.out.println(rs.getInt(1)+" and "+rs.getString(2)+ rs.getMetaData());
