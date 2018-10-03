@@ -18,6 +18,11 @@ public class distancebetweentwostrings {
 		
 		distanceOfTwoWords(r , r1, r2);
 		distanceOfTwoWords(s , s1, s2);
+		
+		String p = "abhhhyjnnbcyuioll";
+		String p1 ="h";
+		String p2 = "y";
+		distanceOfTwoWords(p , p1, p2);
 	}
 	
 	public static int distanceOfTwoWords(String s, String s1, String s2) {
